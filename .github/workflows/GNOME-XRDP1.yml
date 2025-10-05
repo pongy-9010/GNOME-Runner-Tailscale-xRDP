@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   setup-gui-runner:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     env:
       TAILSCALE_AUTHKEY: ${{ secrets.TAILSCALE_AUTHKEY }}
       USERNAME: runner
